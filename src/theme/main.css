@@ -11,5 +11,55 @@ h1{
 text-align: center;
 font-size:20px;
 color: #fe4918;
-
+}
+div.barra{
+    background-color: #f2f2f2;
+    padding: 20px 0;
+   
+    border-bottom-style: dotted;
+    }
+}
+nav.navegacion-principal{
+    display: none;
+}
+nav.navegacion-principal a{
+    
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .6s ease;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    
+}
+nav.navegacion-principal a:hover{
+background-color: dimgray;
+    color: #fff;
+}
+nav.navegacion-principal a:last-child{
+border: 2px solid #141212;
+    
+    
+}
+nav.navegacion-principal a:last-child:hover{
+color: #fff; 
+}
+@media only screen and (min-width:768px){
+ nav.navegacion-principal{
+    width: 80%;
+     float: right;
+     text-align: center;
+     display: inline-block;
+}
+    nav.navegacion-principal a{
+    margin-right: 10px;
+    padding: 20px 20px;
+        display: inline;
+          width: auto;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
 }
